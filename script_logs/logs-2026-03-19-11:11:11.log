@@ -1,0 +1,16 @@
+[LOG   | 2026-03-19 11:11:12] %Cpu(s):  8,8 us,  5,5 sy,  0,0 ni, 75,8 id,  7,7 wa,  1,1 hi,  1,1 si,  0,0 st 
+[LOG   | 2026-03-19 11:11:12] 
+               total        used        free      shared  buff/cache   available
+Mem:           7,4Gi       2,3Gi       3,6Gi       526Mi       2,3Gi       5,2Gi
+Swap:             0B          0B          0B
+[LOG   | 2026-03-19 11:11:12] 
+Файловая система Размер Использовано  Дост Использовано% Cмонтировано в
+/dev/nvme0n1p5      98G          46G   48G           49% /
+devtmpfs           3,8G            0  3,8G            0% /dev
+tmpfs              3,8G         564K  3,8G            1% /dev/shm
+efivarfs           268K         140K  124K           54% /sys/firmware/efi/efivars
+tmpfs              1,5G         1,7M  1,5G            1% /run
+tmpfs              3,8G         172K  3,8G            1% /tmp
+none               1,0M            0  1,0M            0% /run/credentials/systemd-journald.service
+/dev/nvme0n1p1      96M          85M   12M           89% /boot
+tmpfs              761M         3,6M  758M            1% /run/user/1000
